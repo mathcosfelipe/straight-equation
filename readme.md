@@ -32,7 +32,7 @@ Wählen Sie die main die die gewünschte Sprache enthält, aus den verfügbaren 
 
 O programa calcula uma equação da reta (geral e reduzida).
 
-Para usar o programa em sua máquina, você deve ter python instalado. Lembrando que todos os arquivos, exceto o readme, são necessários para o funcionamento do programa. E estes devem estar no mesmo diretório.
+Para usar o programa em sua máquina, você deve ter o python instalado. Lembrando que todos os arquivos, exceto o readme, são necessários para o funcionamento do programa. E estes devem estar no mesmo diretório.
 
 Para obter o resultado, basta informar os valores de xa, ya, xb e yb, ou x0, y0, x1, y1, respectivamente, como quiser chamá-los.
 
