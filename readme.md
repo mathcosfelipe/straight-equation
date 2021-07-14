@@ -27,3 +27,23 @@ Um das Programm auf Ihrem Computer verwenden zu können, müssen Sie Python inst
 Um das Ergebnis zu erhalten, geben Sie einfach die Werte von xa, ya, xb und yb bzw. x0, y0, x1, y1 an, wie auch immer Sie es nennen möchten.
 
 Wählen Sie die Hauptdatei, die die gewünschte Sprache enthält, aus den verfügbaren aus. Beispiel: main(german).py und holen Sie sich das Programm auf Deutsch.
+
+## Calculadora de equação da reta
+
+O programa calcula uma equação reta (geral e reduzida).
+
+Para usar o programa em sua máquina, você deve ter python instalado. Lembrando que todos os arquivos, exceto o readme, são necessários para o funcionamento do programa. E estes devem estar no mesmo diretório.
+
+Para obter o resultado, basta informar os valores de xa, ya, xb e yb, ou x0, y0, x1, y1, respectivamente, como quiser chamá-los.
+
+Escolha o arquivo principal que contém o idioma que deseja, entre os disponíveis. Exemplo: principal (portuguese).py, e obter o programa em português.
+
+## Calcolatore equazione dritta
+
+Il programma calcola un'equazione retta (generale e ridotta).
+
+Per utilizzare il programma nella tua macchina, devi avere python installato. Ricordando che tutti i file, ad eccezione di readme, sono necessari per il funzionamento del programma. E questi devono essere nella stessa directory.
+
+Per ottenere il risultato, basta informare i valori di xa, ya, xb e yb, o x0, y0, x1, y1, rispettivamente, come vuoi chiamarlo.
+
+Scegli il file principale che contiene la lingua che desideri, tra quelle disponibili. Esempio: main(italian).py e ottenere il programma in italiano.
