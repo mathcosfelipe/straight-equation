@@ -39,6 +39,6 @@ def main():
             break
             
     reduced = f'y = {angularReduced(xa, ya, xb, yb)}{linearReduced(xa, ya, xb, yb)}'
-    general = {angularGeneral(xa, ya, xb, yb)}{linearGeneral(xa, ya, xb, yb)}{constantGeneral(xa, ya, xb, yb)}'
+    general = f'{angularGeneral(xa, ya, xb, yb)}{linearGeneral(xa, ya, xb, yb)}{constantGeneral(xa, ya, xb, yb)}'
 
 main()
