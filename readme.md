@@ -16,7 +16,7 @@ Para usar el programa en su máquina, debe tener python instalado. Recordando qu
 
 Para obtener el resultado, simplemente informe los valores de xa, ya, xb e yb, o x0, y0, x1, y1, respectivamente, como quiera llamarlo.
 
-Elija el archivo principal que contiene el idioma que desea, entre los disponibles. Ejemplo: mainSpanish.py, y obtener el programa en Español.
+Elija el archivo main que contiene el idioma que desea, entre los disponibles. Ejemplo: mainSpanish.py, y obtener el programa en Español.
 
 ## Gerader Gleichungsrechner
 
@@ -26,17 +26,17 @@ Um das Programm auf Ihrem Computer verwenden zu können, müssen Sie Python inst
 
 Um das Ergebnis zu erhalten, geben Sie einfach die Werte von xa, ya, xb und yb, bzw x0, y0, x1, y1 an, wie auch immer Sie es nennen möchten.
 
-Wählen Sie die Hauptdatei, die die gewünschte Sprache enthält, aus den verfügbaren aus. Beispiel: mainGerman.py und holen Sie sich das Programm auf Deutsch.
+Wählen Sie die main die die gewünschte Sprache enthält, aus den verfügbaren aus. Beispiel: mainGerman.py und holen Sie sich das Programm auf Deutsch.
 
 ## Calculadora de equação da reta
 
-O programa calcula uma equação reta (geral e reduzida).
+O programa calcula uma equação da reta (geral e reduzida).
 
 Para usar o programa em sua máquina, você deve ter python instalado. Lembrando que todos os arquivos, exceto o readme, são necessários para o funcionamento do programa. E estes devem estar no mesmo diretório.
 
 Para obter o resultado, basta informar os valores de xa, ya, xb e yb, ou x0, y0, x1, y1, respectivamente, como quiser chamá-los.
 
-Escolha o arquivo principal que contém o idioma que deseja, entre os disponíveis. Exemplo: mainPortuguese.py, e obter o programa em português.
+Escolha o arquivo main que contém o idioma que deseja, dentre os disponíveis. Exemplo: mainPortuguese.py, e obtenha o programa em português.
 
 ## Calcolatore equazione dritta
 
@@ -46,4 +46,4 @@ Per utilizzare il programma nella tua macchina, devi avere python installato. Ri
 
 Per ottenere il risultato, basta informare i valori di xa, ya, xb e yb, o x0, y0, x1, y1, rispettivamente, come vuoi chiamarlo.
 
-Scegli il file principale che contiene la lingua che desideri, tra quelle disponibili. Esempio: mainItalian.py e ottenere il programma in italiano.
+Scegli il file main che contiene la lingua che desideri, tra quelle disponibili. Esempio: mainItalian.py e ottenere il programma in italiano.
