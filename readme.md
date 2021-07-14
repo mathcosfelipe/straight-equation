@@ -1,6 +1,6 @@
-## Straight Equation Calculator
+## Straight Line Equation Calculator
 
-The program calculates a straight equation (general and reduced).
+The program calculates a straight line equation (general and reduced).
 
 For use the program in your machine, you must have python installed. Remembering that all files, except readme, are necessary for the operation of the program. And these must be in the same directory.
 
@@ -10,7 +10,7 @@ Choose the main file that contains the language you want, among the available on
 
 ## Calculadora de ecuaciones rectas
 
-El programa calcula una ecuación recta (general y reducida).
+El programa calcula una ecuación da recta (general y reducida).
 
 Para usar el programa en su máquina, debe tener python instalado. Recordando que todos los archivos, excepto el archivo Léame, son necesarios para el funcionamiento del programa. Y estos deben estar en el mismo directorio.
 
@@ -24,7 +24,7 @@ Das Programm berechnet eine gerade Gleichung (allgemein und reduziert).
 
 Um das Programm auf Ihrem Computer verwenden zu können, müssen Sie Python installiert haben. Denken Sie daran, dass alle Dateien, mit Ausnahme der Readme-Datei, für den Betrieb des Programms erforderlich sind. Und diese müssen sich im selben Verzeichnis befinden.
 
-Um das Ergebnis zu erhalten, geben Sie einfach die Werte von xa, ya, xb und yb bzw. x0, y0, x1, y1 an, wie auch immer Sie es nennen möchten.
+Um das Ergebnis zu erhalten, geben Sie einfach die Werte von xa, ya, xb und yb, bzw x0, y0, x1, y1 an, wie auch immer Sie es nennen möchten.
 
 Wählen Sie die Hauptdatei, die die gewünschte Sprache enthält, aus den verfügbaren aus. Beispiel: main(german).py und holen Sie sich das Programm auf Deutsch.
 
