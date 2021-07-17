@@ -27,13 +27,4 @@ def main():
     else:
         italian()
 
-    decisionEnglish = english()
-    decisionSpanish = spanish()
-    decisionGerman = german()
-    decisionPortuguese = portuguese()
-    decisionItalian = italian()
-
-    if decisionEnglish == "n" or decisionSpanish == "n" or decisionGerman == "n" or decisionPortuguese == "n" or decisionItalian == "n":
-        quit()
-
 main() 
