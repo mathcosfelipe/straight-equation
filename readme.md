@@ -1,49 +1,69 @@
-## Straight Line Equation Calculator
+## Straight equation calculator
 
-The program calculates a straight line equation (general and reduced).
+The program calculates an equation of the line (general and reduced).
 
-For use the program in your machine, you must have python installed. Remembering that all files, except readme, are necessary for the operation of the program. And these must be in the same directory.
+To use the program on your machine, you must have python installed.
 
-For get the result, just inform the values of xa, ya, xb and yb, or x0, y0, x1, y1, respectively, whatever you want to call it.
+All files contained in the "src" directory are necessary for the operation of the program. And these should remain in the directories that are located.
 
-Choose the main file that contains the language you want, among the available ones. Example: mainEnglish.py, and get the program in English.
+At the root of the "src" directory is the main file. Run it.
+
+Once the program starts, choose the language you want to use in the program. The available languages are: Portuguese, Italian, German, Spanish and English.
+
+To obtain the result, simply enter the values of xa, ya, xb and yb, or x0, y0, x1, y1, respectively, as you want to call them, according to the order that the program requests.
 
 ## Calculadora de ecuaciones rectas
 
-El programa calcula una ecuación da recta (general y reducida).
+El programa calcula una ecuación de la recta (general y reducida).
 
-Para usar el programa en su máquina, debe tener python instalado. Recordando que todos los archivos, excepto el archivo Léame, son necesarios para el funcionamiento del programa. Y estos deben estar en el mismo directorio.
+Para usar el programa en su máquina, debe tener python instalado.
 
-Para obtener el resultado, simplemente informe los valores de xa, ya, xb e yb, o x0, y0, x1, y1, respectivamente, como quiera llamarlo.
+Todos los archivos contenidos en el directorio "src" son necesarios para el funcionamiento del programa. Y estos deben permanecer en los directorios que se encuentran.
 
-Elija el archivo main que contiene el idioma que desea, entre los disponibles. Ejemplo: mainSpanish.py, y obtener el programa en Español.
+En la raíz del directorio "src" se encuentra el archivo principal. Ejecútelo.
+
+Una vez que se inicia el programa, elija el idioma que desea utilizar en el programa. Los idiomas disponibles son: portugués, italiano, alemán, español e inglés.
+
+Para obtener el resultado, basta con introducir los valores de xa, ya, xb e yb, o x0, y0, x1, y1, respectivamente, como se quiera llamar, según el orden que solicite el programa.
 
 ## Gerader Gleichungsrechner
 
-Das Programm berechnet eine gerade Gleichung (allgemein und reduziert).
+Das Programm berechnet eine Gleichung der Linie (allgemein und reduziert).
 
-Um das Programm auf Ihrem Computer verwenden zu können, müssen Sie Python installiert haben. Denken Sie daran, dass alle Dateien, mit Ausnahme der Readme-Datei, für den Betrieb des Programms erforderlich sind. Und diese müssen sich im selben Verzeichnis befinden.
+Um das Programm auf Ihrem Computer verwenden zu können, müssen Sie Python installiert haben.
 
-Um das Ergebnis zu erhalten, geben Sie einfach die Werte von xa, ya, xb und yb, bzw x0, y0, x1, y1 an, wie auch immer Sie es nennen möchten.
+Alle im Verzeichnis "src" enthaltenen Dateien sind für den Betrieb des Programms notwendig. Und diese sollten in den Verzeichnissen bleiben, die sich befinden.
 
-Wählen Sie die main die die gewünschte Sprache enthält, aus den verfügbaren aus. Beispiel: mainGerman.py und holen Sie sich das Programm auf Deutsch.
+Im Stammverzeichnis des Verzeichnisses "src" befindet sich die Hauptdatei. Führen Sie es aus.
+
+Sobald das Programm gestartet wird, wählen Sie die Sprache, die Sie im Programm verwenden möchten. Die verfügbaren Sprachen sind: Portugiesisch, Italienisch, Deutsch, Spanisch und Englisch.
+
+Um das Ergebnis zu erhalten, geben Sie einfach die Werte von xa, ya, xb und yb bzw. x0, y0, x1, y1 ein, wie Sie sie nennen möchten, entsprechend der Reihenfolge, die das Programm anfordert.
 
 ## Calculadora de equação da reta
 
 O programa calcula uma equação da reta (geral e reduzida).
 
-Para usar o programa em sua máquina, você deve ter o python instalado. Lembrando que todos os arquivos, exceto o readme, são necessários para o funcionamento do programa. E estes devem estar no mesmo diretório.
+Para usar o programa em sua máquina, você deve ter o python instalado.
 
-Para obter o resultado, basta informar os valores de xa, ya, xb e yb, ou x0, y0, x1, y1, respectivamente, como quiser chamá-los.
+Todos os arquivos contidos no diretório "src" são necessários para o funcionamento do programa. E estes devem permanecer nos diretórios que se encontram.
 
-Escolha o arquivo main que contém o idioma que deseja, dentre os disponíveis. Exemplo: mainPortuguese.py, e obtenha o programa em português.
+Na raiz do diretório "src" está o arquivo main. Execute-o.
 
-## Calcolatore equazione dritta
+Assim que o programa for iniciado, escolha o idioma que desejar usar no programa. Os idiomas disponíveis são: português, italiano, alemão, espanhol e inglês.
 
-Il programma calcola un'equazione retta (generale e ridotta).
+Para obter o resultado, basta informar os valores de xa, ya, xb e yb, ou x0, y0, x1, y1, respectivamente, como quiser chamá-los, conforme a ordem que o programa solicitar.
 
-Per utilizzare il programma nella tua macchina, devi avere python installato. Ricordando che tutti i file, ad eccezione di readme, sono necessari per il funzionamento del programma. E questi devono essere nella stessa directory.
+## Calcolatore di equazioni semplici
 
-Per ottenere il risultato, basta informare i valori di xa, ya, xb e yb, o x0, y0, x1, y1, rispettivamente, come vuoi chiamarlo.
+Il programma calcola un'equazione della linea (generale e ridotta).
 
-Scegli il file main che contiene la lingua che desideri, tra quelle disponibili. Esempio: mainItalian.py e ottenere il programma in italiano.
+Per utilizzare il programma sulla tua macchina, devi avere python installato.
+
+Tutti i file contenuti nella directory "src" sono necessari per il funzionamento del programma. E questi dovrebbero rimanere nelle directory che si trovano.
+
+Alla radice della directory "src" c'è il file principale. Scappa.
+
+Una volta avviato il programma, scegliere la lingua che si desidera utilizzare nel programma. Le lingue disponibili sono: portoghese, italiano, tedesco, spagnolo e inglese.
+
+Per ottenere il risultato, è sufficiente immettere i valori di xa, ya, xb e yb, o x0, y0, x1, y1, rispettivamente, come si desidera chiamarli, in base all'ordine richiesta dal programma.
