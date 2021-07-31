@@ -4,7 +4,7 @@ from ..general.angular import main as ga
 from ..general.linear import main as gl
 from ..general.constant import main as gc
 
-def portuguese():
+def english():
     
     while True:
         try:
@@ -24,9 +24,9 @@ def portuguese():
 
     while True:
         try:
-            xb = float(input("Informe o valor de xb: "))
+            xb = float(input("Inform the xb value: "))
         except:
-            print("Erro! Valor inválido. Digite novamente.")
+            print("Error! Invalid value. Try again.")
         else:
             break
 
@@ -34,22 +34,22 @@ def portuguese():
         try:
             yb = float(input("Informe o valor de yb: "))
         except:
-            print("Erro! Valor inválido. Digite novamente.")
+            print("Error! Invalid value. Try again.")
         else:
             break
 
     reduced = f'{ra(xa, ya, xb, yb)}{rl(xa, ya, xb, yb)}'
     general = f'{ga(xa, ya, xb, yb)}{gl(xa, ya, xb, yb)}{gc(xa, ya, xb, yb)}'
-    answer = f'\n A equação reduzida é: {reduced} \n A equação geral é: {general}'
+    answer = f'\n The reduced equation is: {reduced} \n The general equation is: {general}'
 
     print(answer)
 
-    decision = input("Deseja calcular outra equação (s/n)? ")
+    decision = input("Do you wanna calculate another equation (y/n)? ")
 
-    while decision != "s" and decision != "n":
-        print("Erro! Opção inválida. Digite novamente.")
+    while decision != "y" and decision != "n":
+        print("Error! Invalid option. Try again.")
 
-    if decision == "s":
-        portuguese()
+    if decision == "y":
+        english()
     else:
         quit()
