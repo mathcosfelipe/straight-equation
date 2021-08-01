@@ -1,4 +1,4 @@
-def angular():
+def generalAngular():
 
     equation = ""
 
