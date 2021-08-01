@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "StraightEquation"
 version = "0.1.0"
-description = ""
+description = "Straight equation calculator general and reduced."
 authors = ["Marcos Felipe Barbosa de Carvalho"]
 
 [tool.poetry.dependencies]
