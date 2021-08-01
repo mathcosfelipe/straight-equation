@@ -1,4 +1,4 @@
-def constant():
+def generalConstant():
 
     equation = ""
 
