@@ -11,7 +11,7 @@ def main():
         except:
             print("Error! Invalid value. Try again.")
         else:
-            if language != 1 and language != 2 and language != 3 and language != 4 and language != 5:
+            if language < 1 and language > 5:
                 print("Error! Invalid value. Try again.")
             else:
                 break
