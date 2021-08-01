@@ -1,4 +1,4 @@
-def linear():
+def generalLinear():
 
     equation = ""
 
