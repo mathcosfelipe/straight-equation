@@ -1,5 +1,17 @@
-def reducedAngular():
 
-    equation = ""
+def reducedAngular(xa, ya, xb, yb):
 
-    return equation
+    coeficient = ""
+   
+    ybya = yb - ya
+    xbxa = xb - xa
+    angular = ybya / xbxa
+    
+    if angular < 0:
+      coeficient = "- ", angular
+    elif angular > 0:
+      coeficient = "+ ", angular
+    else:
+      coeficient = ""
+
+    return coeficient
