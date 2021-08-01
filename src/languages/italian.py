@@ -1,9 +1,8 @@
-from ..reduced.angular import main as ra
-from ..reduced.linear import main as rl
-from ..general.angular import main as ga
-from ..general.linear import main as gl
-from ..general.constant import main as gc
-
+from ..reduced.angular import reducedAngular as ra
+from ..reduced.linear import reducedLinear as rl
+from ..general.angular import generalAngular as ga
+from ..general.linear import generalLinear as gl
+from ..general.constant import generalConstant as gc
 def italian():
     
     while True:
