@@ -138,7 +138,16 @@ def spanish():
 
     print(answer)
 
-    decision = input("¿Quieres calcular otra ecuación (s/n)?")
+    while True:
+        try:
+            decision = input("¿Quieres calcular otra ecuación (s/n)?")
+        except:
+            print("Error inesperado. Inténtalo de nuevo.")
+        else:
+            if decision != "s" and decision != "n":
+                print("¡Error! Opción inválida. Inténtalo de nuevo.")
+            else:
+                break
 
     while decision != "s" and decision != "n":
         print("¡Error! Opción inválida. Escriba otra vez.")
@@ -190,11 +199,16 @@ def portuguese():
 
     print(answer)
 
-    decision = input("Deseja calcular outra equação (s/n)? ")
-
-    while decision != "s" and decision != "n":
-        print("Erro! Opção inválida. Digite novamente.")
-        decision = input("Deseja calcular outra equação (s/n)? ")
+    while True:
+        try:
+            decision = input("Deseja calcular outra equação (s/n)? ")
+        except:
+            print("Erro inexperado. Tente novamente.")
+        else:
+            if decision != "s" and decision != "n":
+                print("Erro! Opção inválida. Tente novamente.")
+            else:
+                break
 
     if decision == "s":
         portuguese()
@@ -241,11 +255,16 @@ def italian():
 
     print(answer)
 
-    decision = input("Vuoi calcolare un'altra equazione (s/n)?")
-
-    while decision != "s" and decision != "n":
-        print("Errore! Opzione non valida. Digita di nuovo.")
-        decision = input("Vuoi calcolare un'altra equazione (s/n)?")
+    while True:
+        try:
+            decision = input("Vuoi calcolare un'altra equazione (s/n)?")
+        except:
+            print("Errore inaspettato. Tippe nochmal.")
+        else:
+            if decision != "s" and decision != "n":
+                print("Errore! Opzione non valida. Digita di nuovo.")
+            else:
+                break
 
     if decision == "s":
         italian()
@@ -292,11 +311,16 @@ def german():
 
     print(answer)
 
-    decision = input("Möchten Sie eine andere Gleichung (j/n) berechnen?")
-
-    while decision != "j" and decision != "n":
-        print("Fehler! Ungültige Option. Tippe nochmal.")
-        decision = input("Möchten Sie eine andere Gleichung (j/n) berechnen?")
+    while True:
+        try:
+            decision = input("Möchten Sie eine andere Gleichung (j/n) berechnen?")
+        except:
+            print("Unerwarteter fehler. Tippe nochmal.")
+        else:
+            if decision != "j" and decision != "n":
+                print("Error! Invalid option. Try again.")
+            else:
+                break
 
     if decision == "j":
         german()
@@ -343,10 +367,16 @@ def english():
 
     print(answer)
 
-    decision = input("Do you wanna calculate another equation (y/n)? ")
-
-    while decision != "y" and decision != "n":
-        print("Error! Invalid option. Try again.")
+    while True:
+        try:
+            decision = input("Do you wanna calculate another equation (y/n)? ")
+        except:
+            print("Unexpected error. Try again.")
+        else:
+            if decision != "y" and decision != "n":
+                print("Error! Invalid option. Try again.")
+            else:
+                break
 
     if decision == "y":
         english()
@@ -360,7 +390,7 @@ def main():
         except:
             print("Error! Invalid value. Try again.")
         else:
-            if language < 1 and language > 5:
+            if language !=1 and language != 2 and language != 3 and language != 4 and language != 5:
                 print("Error! Invalid value. Try again.")
             else:
                 break
