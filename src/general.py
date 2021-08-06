@@ -1,5 +1,4 @@
 def generalConstant(xa, ya, xb, yb):
-  
 
     coeficient = ""
     
