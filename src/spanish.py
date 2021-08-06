@@ -1,7 +1,6 @@
 from reduced import reducedAngular, reducedLinear
 from general import generalAngular, generalLinear, generalConstant
 
-
 def spanish():
     
     while True:
