@@ -1,6 +1,5 @@
 def generalConstant(xa, ya, xb, yb):
 
-
     coeficient = ""
     
     # d = |x  y  1|x   y|
