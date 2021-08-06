@@ -1,4 +1,5 @@
 def reducedLinear(xa, ya, xb, yb):
+  
 
     coeficient = ""
     
