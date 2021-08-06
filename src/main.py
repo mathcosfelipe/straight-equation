@@ -4,6 +4,7 @@ from german import german
 from portuguese import portuguese
 from italian import italian
 
+
 def main():
     while True:
         try:
