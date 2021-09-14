@@ -29,9 +29,11 @@ fn linear_coeficient_reduced(xa: f64, ya: f64, xb: f64, yb: f64){
 fn angular_coeficient_reduced(xa: f64, ya: f64, xb: f64, yb: f64){
     let yb_ya: f64 = yb - ya;
     let xb_xa: f64 = xb - xa;
-    let angular_coeficient: f64 = yb_ya / xb_xa;
-    
+    let mut angular_coeficient: f64 = yb_ya / xb_xa;
+    let mut response: String;
     if angular_coeficient < 0.0{
+        angular_coeficient = angular_coeficient * -1.0;
+        response = angular_coeficient.to_string();
     }else if angular_coeficient > 0.0{
 
     }else{
