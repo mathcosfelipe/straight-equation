@@ -11,7 +11,9 @@ fn angular_coeficient_general(xa:f64, ya:f64, xb:f64, yb:f64){
 }
 
 fn general_equation(xa:f64, ya:f64, xb:f64, yb:f64){
-    let _angular_coeficient = 
+    let _angular_coeficient: () = angular_coeficient_general(xa, ya, xb, yb);
+    let _linear_coeficient: () = linear_coeficient_general(xa, ya, xb, yb);
+    let _constant_coeficient: () = linear_coeficient_general(xa, ya, xb, yb);
 }
 
 fn linear_coeficient_reduced(xa:f64, ya:f64, xb:f64, yb:f64){
