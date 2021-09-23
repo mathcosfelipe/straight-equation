@@ -1,8 +1,20 @@
-fn general_equation(_xa:f64, _ya:f64, _xb:f64, _yb:f64){
-    
+fn constant_coeficient_general(xa:f64, ya:f64, xb:f64, yb:f64){
+
 }
 
-fn linear_coeficient(xa:f64, ya:f64, xb:f64, yb:f64){
+fn linear_coeficient_general(xa:f64, ya:f64, xb:f64, yb:f64){
+
+}
+
+fn angular_coeficient_general(xa:f64, ya:f64, xb:f64, yb:f64){
+
+}
+
+fn general_equation(xa:f64, ya:f64, xb:f64, yb:f64){
+    let _angular_coeficient = 
+}
+
+fn linear_coeficient_reduced(xa:f64, ya:f64, xb:f64, yb:f64){
     let yb_ya:f64 = yb - ya;
     let xb_xa:f64 = xb - xa;
     let angular_coeficient:f64 = yb_ya / xb_xa;
@@ -19,7 +31,7 @@ fn linear_coeficient(xa:f64, ya:f64, xb:f64, yb:f64){
     return value;
 }
 
-fn angular_coeficient(xa:f64, ya:f64, xb:f64, yb:f64){
+fn angular_coeficient_reduced(xa:f64, ya:f64, xb:f64, yb:f64){
     let yb_ya:f64 = yb - ya;
     let xb_xa:f64 = xb - xa;
     let angular_coeficient:f64 = yb_ya / xb_xa;
@@ -35,8 +47,8 @@ fn angular_coeficient(xa:f64, ya:f64, xb:f64, yb:f64){
 }
 
 fn reduced_equation(xa:f64, ya:f64, xb:f64, yb:f64){
-    let _angular_coeficient: () = angular_coeficient(xa, ya, xb, yb);
-    let _linear_coeficient: () = linear_coeficient(xa, ya, xb, yb);
+    let _angular_coeficient: () = angular_coeficient_reduced(xa, ya, xb, yb);
+    let _linear_coeficient: () = linear_coeficient_reduced(xa, ya, xb, yb);
 }
 
 fn main() {
