@@ -7,7 +7,7 @@ fn linear_coeficient_general(xa:f64, ya:f64, xb:f64, yb:f64){
 }
 
 fn angular_coeficient_general(xa:f64, ya:f64, xb:f64, yb:f64){
-
+ 
 }
 
 fn general_equation(xa:f64, ya:f64, xb:f64, yb:f64){
