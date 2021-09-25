@@ -45,7 +45,6 @@ fn angular_coeficient_reduced(xa:f64, ya:f64, xb:f64, yb:f64){
     }else{
         value = angular_coeficient.to_string() + "x";
     }
-    return value;
 }
 
 fn reduced_equation(xa:f64, ya:f64, xb:f64, yb:f64){
