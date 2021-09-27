@@ -9,7 +9,7 @@ fn constant_coeficient_general(xa:f64, ya:f64, xb:f64, yb:f64){
         value = format!(" - {}", (sum_c * -1.0).to_string());
     }else{
         value = format!();
-    } 
+    }
 }
 
 fn linear_coeficient_general(xa:f64, xb:f64){
