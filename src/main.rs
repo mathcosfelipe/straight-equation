@@ -88,6 +88,8 @@ fn main() {
     let ya:f64 = 2.5;
     let xb:f64 = 5.5;
     let yb:f64 = 6.5;
-    let _reduced_equation: () = reduced_equation(xa, ya, xb, yb);
-    let _general_equation: () = general_equation(xa, ya, xb, yb);
+    let reduced_equation: () = reduced_equation(xa, ya, xb, yb);
+    let general_equation: () = general_equation(xa, ya, xb, yb);
+    println!("{:?}", reduced_equation);
+    println!("{:?}", general_equation);
 }
