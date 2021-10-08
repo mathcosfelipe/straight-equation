@@ -14,7 +14,7 @@ fn linear_coeficient(xa:f64, ya:f64, xb:f64, yb:f64){
     }
 }
 
-pub fn angular_coeficient(xa:f64, ya:f64, xb:f64, yb:f64){
+fn angular_coeficient(xa:f64, ya:f64, xb:f64, yb:f64){
     let yb_ya:f64 = yb - ya;
     let xb_xa:f64 = xb - xa;
     let mut value:f64 = yb_ya / xb_xa;
