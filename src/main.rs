@@ -1,6 +1,6 @@
-use reduced_equation::reduced_equation;
-
 mod reduced_equation;
+
+use reduced_equation::reduced_equation;
 
 fn main(){
     let xa:f64 = 10.5;
