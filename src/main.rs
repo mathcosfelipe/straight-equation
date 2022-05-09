@@ -1,8 +1,8 @@
 extern crate beginner_tools;
 use beginner_tools::input;
-use straight::Straight;
 
 mod straight;
+use straight::Straight;
 
 fn main() {
     
