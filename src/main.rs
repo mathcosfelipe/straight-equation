@@ -34,9 +34,8 @@ fn main() {
         println!("Invalid value! Input a float number. Try again.");
     };
 
-    let reduced: Straight = straight::Straight {xa, ya, xb, yb};
-
-    let general: Straight = straight::Straight {xa, ya, xb, yb};
+    let reduced: Straight = straight::Straight{xa, ya, xb, yb};
+    let general: Straight = straight::Straight{xa, ya, xb, yb};
 
     reduced.reduced();
     general.general();
